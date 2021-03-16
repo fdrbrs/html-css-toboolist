@@ -19,7 +19,8 @@ header {
 #title {
     display: inline;
     font-size: 30px;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: bolder;
     margin: 0;
     position: absolute;
      top: 50%;
@@ -31,6 +32,7 @@ header {
 
 body {
     background-color: #F6F8F9;
+    font-family: 'Roboto', sans-serif;
 }
 
 .center-box {
@@ -42,7 +44,7 @@ body {
 /* Add-bar */
 
 #add-bar {
-    height: 60px;
+    height: 50px;
     margin-top: 50px;
     margin-bottom: 3px;
     border-top-left-radius: 10px;
@@ -54,8 +56,9 @@ body {
     display: inline-block;
     font-weight: bold;
     border-radius: 5px;
-    padding: 8px 11px;
+    padding: 5px 10px;
     margin-top: 15px;
+    font-size: 10px;
 }
 
 #add-task {
@@ -72,6 +75,8 @@ body {
 
 #task-box {
     height: 600px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .task-sub {
@@ -81,6 +86,7 @@ body {
 
 .task-head {
     margin-bottom: 10px;
+    font-weight: bolder;
 }
 
 .task {
@@ -90,9 +96,10 @@ body {
 .task-done {
     color: green;
     border: 1px solid green;
-    border-radius: 50%;
+    border-radius:100%;
     padding: 4px;
     font-size: 11px;
+    margin-right: 5px;
 }
 
 .task-not-done {
@@ -101,12 +108,13 @@ body {
     border-radius: 50%;
     padding: 4px;
     font-size: 11px;
+    margin-right: 5px;
 }
 
 .category {
     color: white;
     border-radius: 15px;
-    padding: 10px;
+    padding: 5px 10px;
     font-size: 10px;
 }
 
