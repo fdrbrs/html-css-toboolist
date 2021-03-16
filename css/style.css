@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    height: fit-content;
+    background-color: white;
+}
+
+#logo {
+    margin: 1%;
+}
+
+#title {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+    padding: ;
+}
+
+/* Body */
+
+body {
+    background-color: #F6F8F9;
+}
+
+.center-box {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+/* Add-bar */
+
+#add-bar {
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 3px;
+}
+
+/* Tasks section */
+
+#task-box {
+    height: 400px;
+}
