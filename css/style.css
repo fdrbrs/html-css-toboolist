@@ -37,11 +37,32 @@ body {
 /* Add-bar */
 
 #add-bar {
-    height: 100px;
+    height: 60px;
     margin-top: 50px;
     margin-bottom: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
 }
 
+.button {
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 11px;
+    margin-top: 15px;
+}
+
+#add-task {
+    background-color: #47ADF1;
+    color: white;
+    margin-left: 5%;
+}
+
+#add-section {
+    color: lightgrey;
+    border: 1px solid lightgrey;
+}
 /* Tasks section */
 
 #task-box {
