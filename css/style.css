@@ -96,9 +96,9 @@ body {
 .task-done {
     color: green;
     border: 1px solid green;
-    border-radius:100%;
+    border-radius:50%;
     padding: 4px;
-    font-size: 11px;
+    font-size:10px;
     margin-right: 5px;
 }
 
