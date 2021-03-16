@@ -7,8 +7,9 @@
 /* Header */
 
 header {
-    height: fit-content;
+    height: 70px;
     background-color: white;
+    position: relative;
 }
 
 #logo {
@@ -16,10 +17,14 @@ header {
 }
 
 #title {
-    display: inline-block;
+    display: inline;
     font-size: 30px;
-    font-weight: 900;
-    padding: ;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+     top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 /* Body */
@@ -29,7 +34,7 @@ body {
 }
 
 .center-box {
-    width: 90%;
+    width: 70%;
     margin: auto;
     background-color: white;
 }
@@ -66,7 +71,20 @@ body {
 /* Tasks section */
 
 #task-box {
-    height: 300px;
+    height: 600px;
+}
+
+.task-sub {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.task-head {
+    margin-bottom: 10px;
+}
+
+.task {
+    margin-bottom: 20px;
 }
 
 .task-done {
