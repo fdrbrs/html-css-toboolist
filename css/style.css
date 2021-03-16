@@ -66,5 +66,52 @@ body {
 /* Tasks section */
 
 #task-box {
-    height: 400px;
+    height: 300px;
+}
+
+.task-done {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 11px;
+}
+
+.task-not-done {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 11px;
+}
+
+.category {
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.editorial {
+    background-color: #47ADF1;
+}
+
+.goals {
+    background-color: #9C72E4;
+}
+
+.recruiting {
+    background-color: #64C0A9;
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.website {
+    background-color: palevioletred;
+}
+
+.sales {
+    background-color: #B0C926;
 }
